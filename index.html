@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+
+
+        }
+
+        body {
+            margin: 0 50px;
+
+        }
+
+        .container {
+            max-width: 1136px;
+            margin: auto;
+
+
+        }
+
+        .subclass {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: auto auto auto;
+            grid-row-gap: 30px;
+            grid-column-gap: 20px;
+
+        }
+
+        header {
+            color: rgb(255, 255, 255);
+            background-color: green;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            text-align: start;
+            padding: 20px;
+            margin: 20px 0 60px 0;
+
+        }
+
+        .item {
+            background-color: bisque;
+        }
+
+        .item1 {
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start: 1;
+            grid-row-end: 3;
+
+
+        }
+
+        .item2 {
+            grid-column-start: 2;
+            grid-column-end: 3;
+            grid-row-start: 1;
+            grid-row-end: 3;
+        }
+
+        .item3 {
+            grid-column-start: 3;
+            grid-column-end: 4;
+            grid-row-start: 1;
+            grid-row-end: 3;
+        }
+
+        .item4 {
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start: 3;
+            grid-row-end: 5;
+        }
+
+        .item5 {
+            grid-column-start: 2;
+            grid-column-end: 3;
+            grid-row-start: 3;
+            grid-row-end: 5;
+        }
+
+        .item6 {
+            grid-column-start: 3;
+            grid-row-end: 4;
+            grid-row-start: 3;
+            grid-row-end: 5;
+        }
+
+        img {
+            height: 100%;
+            width: 100%;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h2>TOYOTA CARS</h2>
+        </header>
+        <div class="subclass">
+            <div class="item item1"><img src="image\1.jpeg"> </div>
+            <div class="item item2"><img src="image\3-removebg-preview.png"> </div>
+            <div class="item item3"><img src="image\2.jpg"></div>
+            <div class="item item4"><img src="image\6.jpg"></div>
+            <div class="item item5"><img src="image\7.jpg"></div>
+            <div class="item item6"><img src="image\8.jpg"></div>
+            
+    </div>
+
+
+</body>
+
+</html>
